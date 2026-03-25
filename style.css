@@ -166,3 +166,24 @@ section.first>div :first-child {
 section.first>div :nth-child(2) {
     font-size: 24px;
 }
+.faq h2{
+    text-align: center;
+    padding: 34px;
+    font-size: 48px;
+}
+.faqbox:hover{
+background-color: rgb(37, 36, 36);
+}
+/* .faqbox svg{
+    filter: invert(1);
+} */
+.faqbox{
+    font-size: 24px;
+    display: flex;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 14px auto;
+    justify-content: space-between;
+    cursor: pointer;
+}
