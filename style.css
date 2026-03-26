@@ -172,7 +172,7 @@ section.first>div :nth-child(2) {
     font-size: 48px;
 }
 .faqbox:hover{
-background-color: rgb(37, 36, 36);
+background-color: #414141;
 }
 /* .faqbox svg{
     filter: invert(1);
@@ -186,4 +186,24 @@ background-color: rgb(37, 36, 36);
     margin: 14px auto;
     justify-content: space-between;
     cursor: pointer;
+}
+footer{
+    max-width: 60vw;
+    margin: auto;
+    color: white;
+    padding: 34px;
+}
+.footer a{
+color: white;
+font-size: 14px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
 }
